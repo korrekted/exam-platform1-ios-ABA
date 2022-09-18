@@ -310,7 +310,6 @@
 		DE068D2828A2999B00BF8238 /* OImproveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE068BDF28A2999B00BF8238 /* OImproveCell.swift */; };
 		DE068D2928A2999B00BF8238 /* ReferencesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE068BE128A2999B00BF8238 /* ReferencesTableCell.swift */; };
 		DE068D2A28A2999B00BF8238 /* ReferencesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE068BE228A2999B00BF8238 /* ReferencesTableView.swift */; };
-		DE068D2B28A2999B00BF8238 /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DE068BE428A2999B00BF8238 /* Onboarding.Chart.json */; };
 		DE068D2C28A2999B00BF8238 /* OWhenStudyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE068BE528A2999B00BF8238 /* OWhenStudyCell.swift */; };
 		DE068D2D28A2999C00BF8238 /* WelcomeSlide1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE068BE728A2999B00BF8238 /* WelcomeSlide1View.swift */; };
 		DE068D2E28A2999C00BF8238 /* WelcomeSlideIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE068BE828A2999B00BF8238 /* WelcomeSlideIndicatorView.swift */; };
@@ -363,6 +362,7 @@
 		DE2D7C55282AB52900B8952B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2D7C54282AB52800B8952B /* LaunchScreen.storyboard */; };
 		DE2D7C58282AB52C00B8952B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE2D7C57282AB52C00B8952B /* Localizable.strings */; };
 		DE2D7C5E282AB7ED00B8952B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE2D7C57282AB52C00B8952B /* Localizable.strings */; };
+		DE4FA13A28D7918B00085483 /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DE4FA13928D7918B00085483 /* Onboarding.Chart.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -696,7 +696,6 @@
 		DE068BDF28A2999B00BF8238 /* OImproveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OImproveCell.swift; sourceTree = "<group>"; };
 		DE068BE128A2999B00BF8238 /* ReferencesTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableCell.swift; sourceTree = "<group>"; };
 		DE068BE228A2999B00BF8238 /* ReferencesTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableView.swift; sourceTree = "<group>"; };
-		DE068BE428A2999B00BF8238 /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		DE068BE528A2999B00BF8238 /* OWhenStudyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWhenStudyCell.swift; sourceTree = "<group>"; };
 		DE068BE728A2999B00BF8238 /* WelcomeSlide1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlide1View.swift; sourceTree = "<group>"; };
 		DE068BE828A2999B00BF8238 /* WelcomeSlideIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlideIndicatorView.swift; sourceTree = "<group>"; };
@@ -748,6 +747,7 @@
 		DE2D7C52282AB51B00B8952B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DE2D7C54282AB52800B8952B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE2D7C57282AB52C00B8952B /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		DE4FA13928D7918B00085483 /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		E355F5814344C24C56DA3EA4 /* Pods-ABA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABA.release.xcconfig"; path = "Target Support Files/Pods-ABA/Pods-ABA.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -2130,7 +2130,7 @@
 		DE068BE328A2999B00BF8238 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				DE068BE428A2999B00BF8238 /* Onboarding.Chart.json */,
+				DE4FA13928D7918B00085483 /* Onboarding.Chart.json */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -2374,12 +2374,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE068D4828A299DD00BF8238 /* SF-Pro-Rounded-Black.otf in Resources */,
-				DE068D2B28A2999B00BF8238 /* Onboarding.Chart.json in Resources */,
 				DE2D7C50282AB51700B8952B /* SF-Pro-Rounded-Regular.otf in Resources */,
 				DE2D7C4F282AB51700B8952B /* SF-Pro-Rounded-Semibold.otf in Resources */,
 				DE2D79B8282AB41E00B8952B /* Assets.xcassets in Resources */,
 				DE2D7C55282AB52900B8952B /* LaunchScreen.storyboard in Resources */,
 				DE2D7C58282AB52C00B8952B /* Localizable.strings in Resources */,
+				DE4FA13A28D7918B00085483 /* Onboarding.Chart.json in Resources */,
 				DE2D7C51282AB51700B8952B /* SF-Pro-Rounded-Bold.otf in Resources */,
 				DE2D7C53282AB51B00B8952B /* GoogleService-Info.plist in Resources */,
 			);
@@ -2950,7 +2950,7 @@
 				CODE_SIGN_ENTITLEMENTS = ABA/ABA.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ABA/Info.plist;
@@ -2964,7 +2964,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.1;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.aba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "ABA AppStore";
@@ -2985,7 +2985,7 @@
 				CODE_SIGN_ENTITLEMENTS = ABA/ABA.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ABA/Info.plist;
@@ -2999,7 +2999,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.1;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.aba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "ABA AppStore";
@@ -3018,7 +3018,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
@@ -3030,7 +3030,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.1;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.aba.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "ABA Widget AppStore";
@@ -3049,7 +3049,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
@@ -3061,7 +3061,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.1;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.aba.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "ABA Widget AppStore";
